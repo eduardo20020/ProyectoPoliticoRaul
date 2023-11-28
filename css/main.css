@@ -246,12 +246,18 @@ ESTOS SON LOS ESTILOS DEL FOOTER
     
     }
     .ico{
+        width: 100%;
+    }
+    .aa{
         width: 2%;
     }
 }
 
 @media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
 .ico{
+    width: 100%;
+}
+.aa{
     width: 10%;
 }
 
