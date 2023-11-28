@@ -1,0 +1,261 @@
+/*
+------------------------------------------------
+ESTOS SON LOS ESTILOS DE LA BARRA DE NAVEGACION
+------------------------------------------------
+*/
+
+#logoNav{ /*hacemos que e logo no se deforme y lo redondeamos*/
+
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contenedorLogo{ /*le damos tamano a la imagen de logo*/
+    padding-left: 15vw;
+    height: 80px;
+}
+
+#listaNav > li{ /*le damos espacio a los elementos de la barra nav*/
+    padding-left: 40px ;
+}
+#listadeiconos{
+display: flex;
+justify-content:center;
+gap: 2%;
+}
+/*  ------------------------------------------------------------------------------------------- */
+
+
+
+/*
+-------------------------------------------------
+ESTOS SON LOS ESTILOS DE LA SECCION PRINCIPAL
+-------------------------------------------------
+*/
+
+@media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más grande) */
+    #seccion1{
+        box-shadow: -1px 5px 15px #ded3d3, 1px -5px 15px #d4caca;
+    }
+    
+    #contenedorIMG{
+        margin-top: .9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contenedorIMG > img{
+        max-width: 70%; /* Asegura que la imagen no se desborde del contenedor */
+        height: auto; /* Mantiene la proporción original de la imagen */
+    }
+    #yaNosToca{
+        margin-top: 1.2%;
+        font-family: 'Lato', sans-serif;
+    }
+    #parrafo{
+        padding: 2% 5%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+    #yaNosToca{
+        margin: 3.4% 1.4%;
+        font-family: 'Lato', sans-serif;
+    }
+    #contenedorIMG > img{
+        max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+        height: auto; /* Mantiene la proporción original de la imagen */
+    }
+    #contenedorIMG{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seccion1{
+    box-shadow: 0px 5px 25px #888888, 0px -5px 15px #888888;
+}
+#parrafo{
+    padding: 2% 0%;
+}
+
+}
+/*  ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/*
+---------------------------------------------------------
+ESTOS SON LOS ESTILOS DE LA SECCION 2
+---------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+    #seccion2{
+        font-family: 'Lato', sans-serif;
+        box-shadow: 0px 5px 25px #888888, 0px -5px 15px #888888;
+    }
+    #ayudandoGarcia{
+        padding: 5% 5%;
+    }
+    #myCarousel{
+        height: 45vh; /* Ajusta la altura del carrusel según tus necesidades */
+      }
+    
+      #myCarousel img {
+        width: 100%; /* Establece el ancho al 100% del contenedor */
+        height: 40vh; /* Ajusta la altura deseada */
+        object-fit: cover; /* Escala y recorta las imágenes para que mantengan su relación de aspecto */
+      }
+}
+@media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más GRANDE  */
+    #seccion2{
+        margin-top: 1%;
+        font-family: 'Lato', sans-serif;
+        box-shadow: -1px 5px 15px #ded3d3, 1px -5px 15px #d4caca;
+    }
+    #ayudandoGarcia{
+        padding: 2% 2%;
+    }
+    #myCarousel{
+        height: 70vh; /* Ajusta la altura del carrusel según tus necesidades */
+      }
+    
+      #myCarousel img {
+        width: 100%; /* Establece el ancho al 100% del contenedor */
+        height: 60vh; /* Ajusta la altura deseada */
+        object-fit: cover; /* Escala y recorta las imágenes para que mantengan su relación de aspecto */
+      }
+}
+/*  ------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------
+ESTOS SON LOS ESTILOS DE LA SECCION 3
+---------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+    #seccion3{
+        margin-top: 3%;
+        font-family: 'Lato', sans-serif;
+        box-shadow: 0px 5px 25px #888888, 0px -5px 15px #888888;
+    }
+    #denunciaEcologista{
+        padding-top: 6%;
+        padding-bottom: 4%;
+
+    }
+    #botones{
+        padding-bottom: 8%;
+    }
+    #registrate{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más GRANDE  */
+    #seccion3{
+        margin-top: 1%;
+        font-family: 'Lato', sans-serif;
+        box-shadow: -1px 5px 15px #ded3d3, 1px -5px 15px #d4caca;
+    }
+    #denunciaEcologista{
+        background-color: #74aa50;
+
+
+    }
+    #botones{
+        padding-bottom: 6%;
+        padding-top: 0%;
+
+    }
+    #registrate{
+        width: 35%;
+    }
+
+}
+/*  ------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*
+-------------------------------------------------------
+ESTOS SON LOS ESTILOS DE LA SECCION 4
+---------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+    #seccion4{
+        margin-top: 3%;
+        font-family: 'Lato', sans-serif;
+        box-shadow: 0px 5px 25px #888888, 0px -5px 15px #888888;
+        margin-bottom: 3%;
+
+    }
+    .contenedorPropuestas {
+        flex-direction: column;
+        text-align: center;
+      }
+    .propuesta{
+        margin-bottom: 5%;
+    }
+    #propuestastitulo{
+        background-color: #74aa50;
+
+    }
+
+
+}
+@media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más GRANDE  */
+    #seccion4{
+        margin-top: 1%;
+        font-family: 'Lato', sans-serif;
+        box-shadow: -1px 5px 15px #ded3d3, 1px -5px 15px #d4caca;
+    }
+    .contenedorPropuestas {
+        display: flex;
+        justify-content: space-between;
+      }
+      #propuestastitulo{
+        background-color: #74aa50;
+
+      }
+      
+}
+/*  ------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*
+--------------------------------------------
+ESTOS SON LOS ESTILOS DEL FOOTER
+--------------------------------------------
+*/
+@media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más GRANDE  */
+    #footer{
+        margin-top: 1%;
+    
+    
+    }
+    .ico{
+        width: 2%;
+    }
+}
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+.ico{
+    width: 10%;
+}
+
+}
+
+/*  ------------------------------------------------------------------------------------------------------------- */
+
