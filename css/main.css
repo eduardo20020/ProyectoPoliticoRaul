@@ -121,12 +121,12 @@ ESTOS SON LOS ESTILOS DE LA SECCION 2
         padding: 2% 2%;
     }
     #myCarousel{
-        height: 70vh; /* Ajusta la altura del carrusel según tus necesidades */
+        height: 100%; /* Ajusta la altura del carrusel según tus necesidades */
       }
     
       #myCarousel img {
-        width: 100%; /* Establece el ancho al 100% del contenedor */
-        height: 60vh; /* Ajusta la altura deseada */
+        width: 65%; /* Establece el ancho al 100% del contenedor */
+        height: 65%; /* Ajusta la altura deseada */
         object-fit: cover; /* Escala y recorta las imágenes para que mantengan su relación de aspecto */
       }
 }
@@ -249,7 +249,7 @@ ESTOS SON LOS ESTILOS DEL FOOTER
         width: 100%;
     }
     .aa{
-        width: 2%;
+        width: 5%;
     }
 }
 
