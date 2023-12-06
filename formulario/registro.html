@@ -30,7 +30,7 @@
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link" href="https://www.hcnl.gob.mx/organizacion/pvem/dip_raul_lozano_caballero/">Acerca de</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios</a>
@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../php/visualizar.php">Comentarios</a>
+                  </li>
                 </ul>
             </div>
         </div>
@@ -48,30 +51,14 @@
 <div class="container mt-5">
     <div class="row justify-content-center" id="formRegistros">
         <div class="col-md-6 text-center">
-            <h1 class="text-center">REGISTROS</h1>
+            <h1 class="text-center">COMENTARIOS</h1>
             <form action="../php/formulario.php" method="post">
                 <div class="form-group campo">
                     <label for="nombre">Nombres:</label>
                     <input name="nombres" type="text" class="form-control" id="nombre" placeholder="Ingrese sus nombres">
                 </div>
                 <div class="form-group campo">
-                    <label for="apellidos">Apellidos:</label>
-                    <input name="apellidos" type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos">
-                </div>
-                <div class="form-group campo">
-                    <label for="numero">Número:</label>
-                    <input name="telefono" type="text" class="form-control" id="numero" placeholder="Ingrese su número de teléfono">
-                </div>
-                <div class="form-group campo">
-                    <label for="direccion">Dirección:</label>
-                    <input name="direccion" type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
-                </div>
-                <div class="form-group campo">
-                    <label for="numero">Correo electronico:</label>
-                    <input name="correo" type="text" class="form-control" id="numero" placeholder="Ingrese su correo electronico">
-                </div>
-                <div class="form-group campo">
-                    <label for="direccion">Tipo de ayuda que buscas:</label>
+                    <label for="direccion">Comentarios:</label>
                     <textarea name="ayuda" type="text" class="form-control" id="direccion" placeholder="describe el apoyo que necesitas"></textarea>
                 </div>
                 <div class="form-group campo text-center">

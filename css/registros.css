@@ -1,6 +1,25 @@
-#formRegistros{
-    margin-bottom: 30vh;
-}
-.campo{
-    margin-bottom: 5%;
-}
+
+@media only screen and (max-width: 767px) {/* Estilos para dispositivos con pantalla más pequeña (móviles) */
+    #formRegistros{
+        margin-top: 30%;
+    }
+    #footer{
+        margin-top: 30vh;
+    }
+    .campo{
+        margin-bottom: 5%;
+    }
+    
+    }
+
+    @media only screen and (min-width: 767px) {/* Estilos para dispositivos con pantalla más GRANDE  */
+        #formRegistros{
+            margin-top: 10%;
+        }
+        .campo{
+            margin-bottom: 5%;
+        }
+        #footer{
+            margin-top: 30vh;
+        }
+    }

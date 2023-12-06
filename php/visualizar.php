@@ -21,16 +21,13 @@ $select_stmt->execute();
 
 <body>
 
-    <div class="container mt-5">
+    <div class="container mt-5 text-center">
         <h2 class="text-center mb-4">Tabla de Comentarios</h2>
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col" width="16%">Nombres</th>
-                    <th scope="col" width="16%">Teléfono</th>
-                    <th scope="col" width="16%">Dirección</th>
-                    <th scope="col" width="16%">Correo</th>
-                    <th scope="col" width="16%">Ayuda</th>
+                    <th scope="col" width="10%">Nombre</th>
+                    <th scope="col" width="20%">Comentario</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,9 +36,6 @@ $select_stmt->execute();
                 while ($row = $select_stmt->fetch(PDO::FETCH_ASSOC)) {
                     echo '<tr>';
                     echo '<td>' . $row["nombres"] . '</td>';
-                    echo '<td>' . $row["telefono"] . '</td>';
-                    echo '<td>' . $row["direccion"] . '</td>';
-                    echo '<td>' . $row["correo"] . '</td>';
                     echo '<td>' . $row["ayuda"] . '</td>';
                     echo '</tr>';
                 }
@@ -49,6 +43,7 @@ $select_stmt->execute();
 
             </tbody>
         </table>
+        <button class="btn btn-primary"><a href="../index.html" style="text-decoration:none; color:black;">salir</a></button>
     </div>
 
     <!-- Incluye el archivo JavaScript de Bootstrap desde el CDN de Bootstrap -->
